@@ -371,6 +371,7 @@ function buildUI(){
                                       let image =  document.createElement('img')
                                       image.src = './img/'+count+".jpg"
                                       image.classList.add("imageStyle")
+                                      image.classList.add("trans")
                                       gridItem.appendChild(image)
                                       
                                       // image.addEventListener("click", function(){
